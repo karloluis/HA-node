@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Welcome to <%= name %>'s Profile</h1>
+    <p>
+      My name is <%= name %> and I am the instructor for
+      Hack Adventures. We are discussion many topics among
+      web development.
+    </p>
+
+    <ol>
+      <% hobbies.forEach( function(hobby){ %>
+        <li><%= hobby %></li>
+      <% }) %>
+    </ol>
+
+
+
+
+
+  </body>
+</html>
