@@ -1,8 +1,90 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /*background-color: #8e24aa;*/
+  /*color: #afb42b;*/
+}
+
+.nav-wrapper {
+  padding: 0 30px;
+}
+
+nav ul li a{
+  color: #8e24aa;
+  font-size: 1.2em;
+}
+
+.logo {
+  align-items: center;
+  justify-content: center;
+}
+
+#content {
+  width: 100%;
+  margin: auto;
+  font-size: 20px;
+}
+
+#title {
+  background-image: url('/images/banner.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100vw;
+
+  height: 90vh;
+  text-align: center;
+
+}
+
+#title img {
+  max-height: 60%;
+  margin: 20vh auto;
+}
+
+h1 {
+  margin: 0px auto;
+  padding: 40px 20%;
+  font-size: 2.4em;
+  text-shadow: 2px 2px 2px #0a0a0a;
+}
+
+h2 {
+  font-size: 2.2em;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+.segment {
+  margin: 0px auto;
+  padding: 20px 20%;
+  text-align: justify;
 }
 
 a {
   color: #00B7FF;
+}
+
+.modal { width: 75% !important ; }
+
+.card-stacked {
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-segment .card {
+  padding: 10px;
+}
+
+.modal-segment .card-content {
+  line-height: 58px;
+}
+
+.modal-info {
+  margin: auto 3vw;
+  padding: 15px 0 5px 0;
+}
+
+.brand {
+  max-width: 15vw;
 }

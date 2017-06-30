@@ -2,12 +2,231 @@
 <html>
   <head>
     <title><%= title %></title>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
+
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <link rel='stylesheet' href='/stylesheets/style.css' />
+
+    </script>
   </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-    <h3>This is running from a server.</h3>
-    <p>This is something new.</p>
+  <body class="white">
+
+
+
+    <%# <div id="content" class="lime-text text-darken-2">
+
+      <div class="carousel carousel-slider" height="300">
+      <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/600/400/food/1"></a>
+      <a class="carousel-item" href="#two!"><img src="http://lorempixel.com/1600/400/food/2"></a>
+      <a class="carousel-item" href="#three!"><img src="http://lorempixel.com/1600/400/food/3"></a>
+      <a class="carousel-item" href="#four!"><img src="http://lorempixel.com/1600/400/food/4"></a>
+    </div>%>
+
+    <script type="text/javascript" src="/javascripts/carousel.js"></script>
+
+    <div id="title" class="">
+      <img class="logo" src="/images/hackadventure.png" alt="Hack Adventure" >
+    </div>
+
+    <div class="segment">
+
+      <p>
+        Cuatro entidades diseñan campamento de verano que busca despertar el interés
+        de jóvenes por la industria de la programación y el emprendimiento.
+      </p>
+
+      <p>
+        Durante cuatro semanas los jóvenes entre las edades de 11 a 17 años se verán
+        expuestos al campo del empresarismo y programación para maximizar su
+        creatividad a través de un extenso currículo dirigido por expertos que buscan
+        poner en práctica y desarrollar destrezas relacionadas con la codificación y el
+        desarrollo de innovación.
+      </p>
+
+      <p>
+        La iniciativa busca exponer a los estudiantes a la industria de tecnología en una
+        etapa temprana a través del desarrollo de habilidades en múltiples disciplinas y
+        despertando su interés en este campo, hasta desarrollar un proyecto final que
+        será presentado frente a integrantes del ecosistema empresarial y de la industria
+        de la tecnología.
+      </p>
+
+    </div>
+
+    <div class="segment lime darken-2">
+
+      <div class="row">
+        <div class="col s6">
+          <div class="card medium">
+            <div class="card-image">
+              <%# <img src="images/laptop-man.jpg" width="auto">%>
+              <video src="/images/gramming-good.mov" autoplay loop muted height="250px" style="">
+
+              </video>
+              <span class="card-title">Programación</span>
+              <a class="btn-floating halfway-fab waves-effect waves-light red" href="#programacion"><i class="material-icons">add</i></a>
+            </div>
+            <div class="card-content">
+              <p>
+                Tecnologías web modernas; HTML, CSS, JS.
+                Instruido por Karlo Martínez, asistido por Alexandra Ward y Juan Santa.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col s6">
+          <div class="card medium">
+            <div class="card-image">
+              <video src="/images/empresarismo.mp4" autoplay loop muted height="250px" style="">
+
+              </video>
+              <span class="card-title">Empresarismo</span>
+              <a class="btn-floating halfway-fab waves-effect waves-light red" href="#empresarismo"><i class="material-icons">add</i></a>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Structure -->
+      <div id="programacion" class="modal modal-fixed-footer">
+        <div class="modal-content">
+          <h4>Programación</h4>
+          <%- include('programacion', {}); -%>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Done</a>
+        </div>
+      </div>
+
+      <!-- Modal Structure -->
+      <div id="empresarismo" class="modal modal-fixed-footer">
+        <div class="modal-content">
+          <h4>Empresarismo</h4>
+          <%- include('empresarismo', {}); -%>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Done</a>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div id="quote" class="segment">
+      <%# BG IMG %>
+    </div>
+
+    <div id="projects" class="segment">
+      <h3>Logos de Productos</h3>
+      <div class="row">
+        <div class="col s4">
+          <img src="/images/Gaucho.png" alt="" width="100%">
+        </div>
+        <div class="col s4">
+          <img src="/images/artx.png" alt="" width="100%">
+        </div>
+        <div class="col s4">
+          <img src="/images/gamely-bookly.png" alt="" width="100%">
+        </div>
+        <div class="col s4">
+          <img src="/images/travel-easy-logo.png" alt="" width="100%">
+        </div>
+        <div class="col s4">
+          <img src="/images/surf-kindly-logo.png" alt="" width="100%">
+        </div>
+        <div class="col s4">
+          <img src="/images/azafran.jpg" alt="" width="100%">
+        </div>
+        <div class="col s4">
+          <img src="/images/genera.png" alt="" width="100%">
+        </div>
+        <div class="col s4">
+          <img src="/images/musicalfree.png" alt="" width="100%">
+        </div>
+        <div class="col s4">
+          <img src="/images/" alt="Schedule PRO" width="100%">
+        </div>
+
+        </div>
+      </div>
+
+
+    </div>
+
+    <div id="sponsors" class="segment purple darken-1">
+      <h2>¿Quién hizo que esto sucediera?</h2>
+
+      <p>
+        La academia de programación Codetrotters, las organizaciones educativas
+        HackPR e INprende y GFR Media han desarrollado el campamento de verano
+        Hack Adventure dirigido a desarrollar destrezas de programación y
+        empresarismo en estudiantes de escuela superior.
+      </p>
+
+      <div class="row">
+
+        <div class="col s4">
+          <div class="card">
+            <div class="card-image">
+              <img class="brand" src="/images/gfrmedia.png" alt="">
+            </div>
+            <div class="card-action">
+              <a href="#">GFR Media</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s4">
+          <div class="card">
+            <div class="card-image">
+              <img class="brand" src="/images/inprende.png" alt="">
+            </div>
+            <div class="card-action">
+              <a href="#">INprende</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s4">
+          <div class="card">
+            <div class="card-image">
+              <img class="brand" src="/images/codetrotters.png" alt="">
+            </div>
+            <div class="card-action">
+              <a href="#">Codetrotters</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <div id="future" class="">
+
+    </div>
+
+
+    <%# https://goo.gl/BYSXSV %>
   </body>
 </html>
