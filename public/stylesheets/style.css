@@ -88,3 +88,14 @@ a {
 .brand {
   max-width: 15vw;
 }
+
+#promo-icons {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
+
+#promo-icons img {
+  padding: 15px; 
+}
