@@ -13,12 +13,6 @@ nav ul li a{
   font-size: 1.2em;
 }
 
-.logo {
-  align-items: center;
-  justify-content: center;
-  width: 40vw;
-}
-
 #content {
   width: 100%;
   margin: auto;
@@ -37,8 +31,11 @@ nav ul li a{
 }
 
 #title img {
-  max-height: 60%;
-  margin: 20vh auto;
+  /*max-height: 60%;*/
+  margin: 15vh auto;
+  align-items: center;
+  justify-content: center;
+  width: 60vw;
 }
 
 h1 {
