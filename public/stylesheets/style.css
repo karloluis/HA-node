@@ -20,7 +20,7 @@ nav ul li a {
 }
 
 .hero {
-  background-image: url('/images/banner.jpg');
+  background-image: url('/images/IMG_1168-web.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100vw;
@@ -39,6 +39,7 @@ nav ul li a {
   justify-content: center;
   width: 400px;
   margin-top: 15%;
+  display: none;
 }
 
 h1 {
