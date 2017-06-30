@@ -109,3 +109,14 @@ a {
 .lime.darken-2 {
   background-color: rgba(60, 181, 60, 1) !important;
 }
+
+video {
+  width: 100% !important;
+}
+
+.btn-floating.halfway-fab {
+  position: absolute;
+  right: 33px;
+  bottom: 12px;
+  z-index: 100;
+}
