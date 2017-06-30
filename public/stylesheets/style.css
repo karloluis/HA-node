@@ -59,7 +59,7 @@ h3 {
 
 .segment {
   margin: 0px auto;
-  padding: 20px 20%;
+  padding: 40px 20%;
   text-align: justify;
 }
 
@@ -85,8 +85,12 @@ a {
 }
 
 .modal-info {
-  margin: auto 3vw;
+  margin: 40px 3vw;
   padding: 15px 0 5px 0;
+}
+
+.modal-info p {
+  font-size: 1.4em;
 }
 
 .brand {
