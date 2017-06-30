@@ -8,7 +8,7 @@ body {
   padding: 0 30px;
 }
 
-nav ul li a{
+nav ul li a {
   color: #8e24aa;
   font-size: 1.2em;
 }
@@ -19,20 +19,27 @@ nav ul li a{
   font-size: 20px;
 }
 
-.logo {
-  background-image: url('/images/banner.jpg');
+.hero {
+  background-image: url('/images/IMG_1168-web.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100vw;
-
   height: 100vh;
   text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
+.logo {
+  text-align: center;
   /*max-height: 60%;*/
   align-items: center;
   justify-content: center;
-  width: 100vw;
-
+  width: 400px;
+  margin-top: 15%;
+  display: none;
 }
 
 h1 {
@@ -60,7 +67,9 @@ a {
   color: #00B7FF;
 }
 
-.modal { width: 75% !important ; }
+.modal {
+  width: 75% !important;
+}
 
 .card-stacked {
   align-items: center;
@@ -88,9 +97,27 @@ a {
   align-items: center;
   justify-content: center;
   display: flex;
-
 }
 
 #promo-icons img {
   padding: 15px;
+}
+
+.purple.darken-1 {
+  background-color: lightgray !important;
+}
+
+.lime.darken-2 {
+  background-color: rgba(60, 181, 60, 1) !important;
+}
+
+video {
+  width: 100% !important;
+}
+
+.btn-floating.halfway-fab {
+  position: absolute;
+  right: 33px;
+  bottom: 12px;
+  z-index: 100;
 }
