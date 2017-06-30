@@ -19,7 +19,7 @@ nav ul li a{
   font-size: 20px;
 }
 
-#title {
+.logo {
   background-image: url('/images/banner.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -28,14 +28,12 @@ nav ul li a{
   height: 90vh;
   text-align: center;
 
-}
-
-#title img {
   /*max-height: 60%;*/
-  margin: 15vh auto;
   align-items: center;
   justify-content: center;
-  width: 60vw;
+  width: 100vw;
+
+  padding: 15%;
 }
 
 h1 {
